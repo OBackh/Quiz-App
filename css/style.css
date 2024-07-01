@@ -30,3 +30,7 @@ li {
 .tags {
   flex-direction: column;
 }
+
+.question_card {
+  border: 1px solid black;
+}
