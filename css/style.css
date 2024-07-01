@@ -1,6 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header .headline {
-  color: darkblue;
+  color: white;
   font-size: large;
+}
+
+.header {
+  background-color: black;
+  padding: 15px;
+}
+
+.header,
+.question_card {
+  text-align: center;
+}
+
+.frage {
+  padding: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 ul,
@@ -28,8 +50,9 @@ li {
 }
 
 .tags {
+  display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .question_card {
