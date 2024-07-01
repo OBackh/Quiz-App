@@ -1,3 +1,32 @@
-.bold {
-  color: brown;
+header .headline {
+  color: darkblue;
+  font-size: large;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.footer {
+  color: white;
+  background-color: black;
+  padding: 15px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+}
+
+.tags li {
+  border: 1px solid #777777;
+  color: #444444;
+  background-color: darkgray;
+  width: max-content;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.tags {
+  flex-direction: column;
 }
