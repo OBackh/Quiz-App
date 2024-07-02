@@ -1,27 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- add class="debug" to the html element to show helper texts -->
+<html lang="en" class="debug">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/debug.css" />
     <title>Document</title>
   </head>
   <body class="body">
     <header class="header"><b class="headline">Quiz-App V.0.1</b></header>
-    <section class="question_card">
-      <div class="frage">Frage</div>
-      <button class="show">Show Answer</button>
-      <br />
-      <article>
-        <ul class="tags">
-          <li># html</li>
-          <li># flexbox</li>
-          <li># css</li>
-        </ul>
-        <img href="img/icon_off.png" alt="Bookmark_off" />
-        <img href="img/icon_on.png" alt="Bookmark_on" />
-      </article>
-    </section>
-    <nav class="footer">Footer – Menu</nav>
+    <main class="main">
+      <section class="question_card">
+        <div class="bookmark">
+          <div class="icon-inner">
+            <div class="inner-label"></div>
+          </div>
+          <div class="icon-outer">
+            <div class="outer-label"></div>
+          </div>
+        </div>
+
+        <div class="frage">
+          Das hier ist der Stellvertreter für die späteren, echten Fragen.
+        </div>
+        <button class="show" aria-label="Button_show">Show Answer</button>
+        <br />
+
+        <article>
+          <ul class="tags">
+            <li># html</li>
+            <li># flexbox</li>
+            <li># css</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+    <div class="footer">
+      <nav class="home">Home</nav>
+      <nav class="favorites">Bookmarks</nav>
+      <nav class="profil">Profil</nav>
+    </div>
   </body>
 </html>
