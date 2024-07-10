@@ -1,0 +1,67 @@
+/*
+  ⚠️ This file is for debugging purposes only.
+  You do not have to understand or edit the code in this file. 🥳
+*/
+
+.debug
+  :is(
+    body,
+    main,
+    aside,
+    ul,
+    .user,
+    .question_card,
+    .tags,
+    .footer,
+    .frage
+  )::before {
+  content: var(--debug-content);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  padding: 4px;
+  background-color: #ff4a11;
+  border-radius: 4px;
+  font-size: 12px;
+  color: white;
+}
+
+.debug :is(body, main, aside, ul, .user, .tags, .frage) {
+  position: relative;
+}
+
+body {
+  --debug-content: "body";
+}
+
+main {
+  --debug-content: "main";
+}
+
+aside {
+  --debug-content: "aside";
+}
+
+ul {
+  --debug-content: "ul";
+}
+
+.user {
+  --debug-content: ".user";
+}
+
+.question_card {
+  --debug-content: ".questioncard";
+}
+
+.tags {
+  --debug-content: ".tags";
+}
+
+.frage {
+  --debug-content: ".frage";
+}
+
+.footer {
+  --debug-content: ".footer";
+}

@@ -1,0 +1,22 @@
+.tags li {
+  border: 1px solid #777777;
+  color: #eeeeee;
+  background-color: darkgray;
+  width: max-content;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: aquamarine;
+  border: 2px solid red;
+  gap: 5px;
+}
+
+ul,
+li {
+  list-style: none;
+}
