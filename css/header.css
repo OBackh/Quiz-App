@@ -1,0 +1,9 @@
+header .headline {
+  color: white;
+  font-size: large;
+}
+
+.header {
+  background-color: black;
+  padding: 15px;
+}

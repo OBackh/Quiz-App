@@ -1,24 +1,15 @@
-/* @import "./css/header.css";
-@import "./css/card.css";
-@import "./css/footer.css";
-@import "./css/tags.css";
-@import "./css/bookmark.css"; */
-
 @import "./css/root.css";
+
+@import "./header.css";
+@import "./cards.css";
+@import "./footer.css";
+@import "./tags.css";
+@import "./bookmark.css";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-header .headline {
-  color: white;
-  font-size: large;
-}
-
-.header {
-  background-color: black;
-  padding: 15px;
 }
 
 .main {
@@ -26,131 +17,7 @@ header .headline {
   justify-content: center;
 }
 
-ul,
-li {
-  list-style: none;
-}
-
 .header,
 .question_card {
   text-align: center;
-}
-
-.frage {
-  padding: 30px;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.question_card {
-  border: 1px solid red;
-  position: relative;
-  top: 30px;
-  margin: 10px;
-  padding: 5px;
-  height: 40vh;
-  width: 40vh;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: flex-;
-}
-.question_card.on:active {
-  visibility: hidden;
-}
-
-button {
-  background-color: #bbbbbb;
-  color: #666666;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-  width: 50%;
-  align-self: center;
-  box-shadow: 2px 2px #888888;
-}
-
-button:hover {
-  color: #ffffff;
-}
-
-button:active {
-  _background-color: red;
-  color: #ffffff;
-  position: relative;
-  top: 2px;
-  left: 2px;
-  box-shadow: 0px 0px white;
-}
-.bookmark {
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  top: -9vh;
-  left: 80%;
-  _border: 1px solid red;
-}
-
-.icon-inner,
-.icon-outer {
-  display: flex;
-}
-
-.inner-label {
-  position: absolute;
-  z-index: 1;
-  top: 3px;
-  left: 4px;
-  width: 0;
-  height: 0;
-  border-top: 24px solid white;
-  border-bottom: 18px solid transparent;
-  border-left: 18px solid white;
-  border-right: 18px solid white;
-  border-radius: 2px;
-}
-.outer-label {
-  z-index: 0;
-  position: absolute;
-  top: 3 px;
-  left: 0px;
-  width: 0;
-  height: 0;
-  border-top: 32px solid red;
-  border-bottom: 22px solid transparent;
-  border-left: 22px solid red;
-  border-right: 22px solid red;
-  border-radius: 4px;
-}
-.tags li {
-  border: 1px solid #777777;
-  color: #eeeeee;
-  background-color: darkgray;
-  width: max-content;
-  padding: 3px;
-  border-radius: 3px;
-}
-
-.tags {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-content: flex-end;
-  background-color: aquamarine;
-  border: 2px solid red;
-  gap: 5px;
-}
-.footer {
-  color: white;
-  background-color: black;
-  padding: 15px;
-  width: 100%;
-  position: fixed;
-  bottom: 0px;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 40px;
 }
