@@ -16,6 +16,15 @@
   border-right: 18px solid white;
   border-radius: 2px;
 }
+
+.inner-label:active {
+  border-top: 24px solid red;
+  border-bottom: 18px solid transparent;
+  border-left: 18px solid red;
+  border-right: 18px solid red;
+  border-radius: 2px;
+}
+
 .outer-label {
   z-index: 0;
   position: absolute;

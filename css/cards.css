@@ -1,38 +1,27 @@
 .frage {
+  position: relative;
   padding: 30px;
+  align-self: center;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   opacity: 1;
-  top: -4em;
 }
 
 .answer {
-  position: absolute;
-  top: 16em;
+  position: relative;
+  top: 20px;
   align-self: center;
-  z-index: 0;
+  font-family: Arial, Helvetica, sans-serif;
   width: 12em;
-}
-
-.question_card {
-  border: 1px solid red;
-  position: relative;
-  top: 30px;
-  margin: 10px;
-  padding: 5px;
-  height: 40vh;
-  width: 40vh;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: flex-;
+  z-index: -1;
 }
 .button:active {
   opacity: 0;
 }
 
 button {
+  position: relative;
+  top: -55px;
   background-color: #bbbbbb;
   color: #666666;
   padding: 10px;
@@ -47,13 +36,39 @@ button {
 
 button:hover {
   color: #ffffff;
+
+  font-weight: bolder;
 }
 
 button:active {
   _background-color: red;
-  color: #ffffff;
+  color: #0b8fc3;
   position: relative;
   top: 2px;
   left: 2px;
   box-shadow: 0px 0px white;
+}
+
+.question_card {
+  background-color: #9ed1e5;
+  border: 5px solid hsl(197, 41%, 56%);
+  border-radius: 10px;
+  position: relative;
+  top: 30px;
+  margin: 10px;
+  padding: 5px;
+  height: 35vh;
+  width: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  z-index: 0;
+}
+
+.empty {
+  position: relative;
+  top: 30px;
+  width: 40vh;
+  text-align: center;
 }
