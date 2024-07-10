@@ -6,7 +6,7 @@
 .inner-label {
   position: absolute;
   z-index: 1;
-  top: 3px;
+  top: 4px;
   left: 4px;
   width: 0;
   height: 0;
@@ -17,7 +17,7 @@
   border-radius: 2px;
 }
 
-.inner-label:active {
+.inner-label--active {
   border-top: 24px solid red;
   border-bottom: 18px solid transparent;
   border-left: 18px solid red;
@@ -47,4 +47,8 @@
   left: 80%;
   _border: 1px solid red;
   transform: scale(v);
+}
+
+.bookmark:hover {
+  cursor: pointer;
 }
